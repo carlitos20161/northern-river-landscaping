@@ -1,0 +1,12 @@
+{
+  "name": "northern-river-landscaping-site",
+  "private": true,
+  "scripts": {
+    "build:min": "cleancss -o styles.min.css styles.css && terser script.js -o script.min.js -c -m",
+    "deploy": "npx firebase-tools deploy --only hosting"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.37.0"
+  }
+}

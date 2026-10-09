@@ -1,0 +1,37 @@
+<div style="font-family: system-ui, sans-serif, Arial; font-size: 12px">
+  <div>A <strong>referral</strong> has been submitted. Kindly follow up at your earliest convenience.</div>
+  <div
+    style="
+      margin-top: 20px;
+      padding: 15px 0;
+      border-width: 1px 0;
+      border-style: dashed;
+      border-color: lightgrey;
+    "
+  >
+    <table role="presentation" style="width: 100%">
+      <tr>
+        <td style="vertical-align: top; padding-right: 16px">
+          <div style="color: #2c3e50; font-size: 14px; font-weight: bold; margin-bottom: 8px">Referrer (your client)</div>
+          <div style="font-size: 14px"><strong>{{referrerName}}</strong></div>
+          <div style="color: #666; font-size: 13px">📧 {{referrerEmail}}</div>
+          <div style="color: #666; font-size: 13px">📞 {{referrerPhone}}</div>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top; padding-top: 16px; border-top: 1px dashed lightgrey">
+          <div style="color: #2c3e50; font-size: 14px; font-weight: bold; margin-bottom: 8px">Referred person</div>
+          <div style="font-size: 14px"><strong>{{referredName}}</strong></div>
+          <div style="color: #666; font-size: 13px">📧 {{referredEmail}}</div>
+          <div style="color: #666; font-size: 13px">📞 {{referredPhone}}</div>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top; padding-top: 16px; border-top: 1px dashed lightgrey">
+          <div style="color: #2c3e50; font-size: 14px; font-weight: bold; margin-bottom: 8px">Notes</div>
+          <p style="font-size: 14px; margin: 0">{{referralNotes}}</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
